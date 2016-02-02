@@ -1,6 +1,6 @@
 [
   {
-    "name": "WinterRun 2016",
+    "name": "WinterRun",
     "date": "2016-01-30",
     "distance": 10,
     "runners": [
@@ -9,5 +9,14 @@
       "Magnus",
       "Stefan"
     ]
+  },
+  {
+    "name": "Kungholmen Runt",
+    "date": "2016-05-07",
+    "upcoming": true,
+    "distance": 10,
+    "runners": [
+    ]
   }
+
 ]

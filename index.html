@@ -5,10 +5,11 @@ layout: default
   <ul class="races">
     {% for race in site.data.races %}
       <li class="race {% if race.upcoming %}upcoming{% endif %}" data-distance="{{ race.distance }}" data-runners="{{ race.runners | join }}">
+        <span class="racename">{{ race.name }}, <span class="distance">{{ race.distance }}k</span></span>
         {% if race.upcoming %}
-          <span class="upcoming">{{ race.date }}</span>
+          <span class="upcoming">({{ race.date }})</span>
         {% endif %}
-        <span class="racename">{{ race.name }}, <span class="distance">{{ race.distance }}k</span></span><br>
+        <br>
         {% for runners in race.runners %}
           {{ runners }}
         {% endfor %}
