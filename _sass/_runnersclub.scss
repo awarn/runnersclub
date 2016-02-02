@@ -1,0 +1,23 @@
+.races {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+
+    font-family: monospace;
+
+    .upcoming {
+      color: #999;
+    }
+
+    .racename {
+        font-weight: bold;
+
+        .distance {
+
+        }
+    }
+
+}

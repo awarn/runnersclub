@@ -1,4 +1,24 @@
-<DOCTYPE html>
-<html>
-Rebel & Bird Runners Club
-</html>
+---
+layout: default
+---
+
+  <ul class="races">
+    {% for race in site.data.races %}
+      <li class="race {% if race.upcoming %}upcoming{% endif %}" data-distance="{{ race.distance }}" data-runners="{{ race.runners | join }}">
+        {% if race.upcoming %}
+          <span class="upcoming">{{ race.date }}</span>
+        {% endif %}
+        <span class="racename">{{ race.name }}, <span class="distance">{{ race.distance }}k</span></span><br>
+        {% for runners in race.runners %}
+          {{ runners }}
+        {% endfor %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h3>Total distans</h3>
+  <pre id="total"></pre>
+
+
+
+</div>
