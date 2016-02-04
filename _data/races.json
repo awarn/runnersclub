@@ -11,12 +11,30 @@
     ]
   },
   {
-    "name": "Kungholmen Runt",
+    "name": "Kungsholmen Runt",
     "date": "2016-05-07",
     "upcoming": true,
     "distance": 10,
     "runners": [
+      "Stefan"
     ]
-  }
-
+  },
+  {
+    "name": "Skärholmsloppet",
+    "date": "2016-05-21",
+    "upcoming": true,
+    "distance": 10,
+    "runners": [
+      "Stefan"
+    ]
+  },
+  {
+    "name": "STHLM 10 2016",
+    "date": "2016-06-15",
+    "upcoming": true,
+    "distance": 10,
+    "runners": [
+      "Stefan"
+    ]
+  }  
 ]
